@@ -32,6 +32,7 @@ Years    Average Student Loan Debt
 2025               $39,375
 
 ## Data Viability Audit
-
+The dataset cannot provide information about college students demographics such as age and ethnicity.
 
 ## Draft Chart Screenshot
+
