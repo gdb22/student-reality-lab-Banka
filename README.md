@@ -1,7 +1,7 @@
 # student-reality-lab-Banka
 
 ## Title
-Student loans problem
+Student loan problem
 
 ## Question
 As college tuition is becoming very expensive it begs the question: Will student loans become a necessity in the future?
@@ -36,3 +36,5 @@ The dataset cannot provide information about college students demographics such 
 
 ## Draft Chart Screenshot
 ![image alt](https://github.com/gdb22/student-reality-lab-Banka/blob/main/Draft%20Chart%20-%20Guna%20Banka.png?raw=true)
+- The chart shows that the average student loan debt is increasing by every year which makes student take out more loans
+- This chart can help predict the amount of students that will take loans in the next couple of years
