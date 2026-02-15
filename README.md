@@ -1,7 +1,7 @@
 # student-reality-lab-Banka
 
 ## Title
-Student loans are starting to become a neccessity!
+Student loans problem
 
 ## Question
 As college tuition is becoming very expensive it begs the question: Will student loans become a necessity in the future?
@@ -35,4 +35,3 @@ Years    Average Student Loan Debt
 The dataset cannot provide information about college students demographics such as age and ethnicity.
 
 ## Draft Chart Screenshot
-
