@@ -19,8 +19,8 @@ College students
 - R: I will show a bunch of statistics on college tuitions from 20 years ago and compare it in the present day.
 
 ## Dataset & Provenence
-https://www.britannica.com/procon/student-loan-debt-debate
-https://www.elfi.com/the-pros-and-cons-of-student-loans/
+- https://www.britannica.com/procon/student-loan-debt-debate
+- https://www.elfi.com/the-pros-and-cons-of-student-loans/
 
 ## Data Dictionary
 
