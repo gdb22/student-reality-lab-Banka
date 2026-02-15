@@ -1,6 +1,6 @@
 # student-reality-lab-Banka
 
-# Title
+## Title
 Student loans are starting to become a neccessity!
 
 ## Question
@@ -18,3 +18,10 @@ College students
 - A: I will build a website that spreads awareness about rising tuition rates.
 - R: I will show a bunch of statistics on college tuitions from 20 years ago and compare it in the present day.
 
+## Dataset & Provenence
+
+## Data Dictionary
+
+## Data Viability Audit
+
+## Draft Chart Screenshot
