@@ -35,3 +35,4 @@ Years    Average Student Loan Debt
 The dataset cannot provide information about college students demographics such as age and ethnicity.
 
 ## Draft Chart Screenshot
+![image alt](https://github.com/gdb22/student-reality-lab-Banka/blob/main/Draft%20Chart%20-%20Guna%20Banka.png?raw=true)
