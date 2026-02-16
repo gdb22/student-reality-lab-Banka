@@ -24,12 +24,18 @@ College students
 - https://www.bestcolleges.com/research/average-student-loan-debt/
 
 ## Data Dictionary
-| Years | Average Student Loan Debt |
-2021               $37,113
-2022               $37,575
-2023               $37,088
-2024               $38,375
-2025               $39,375
+- Years
+2021               
+2022               
+2023               
+2024               
+2025
+- Average Student Loan Debt
+$37,113
+$37,575
+$37,088
+$38,375
+$39,375
 
 ## Data Viability Audit
 The dataset cannot provide information about college students demographics such as age and ethnicity.
