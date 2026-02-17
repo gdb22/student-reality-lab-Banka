@@ -1,7 +1,7 @@
 # student-reality-lab-Banka
 
 ## Title
-Student loan problem
+Student loan crisis
 
 ## Question
 As college tuition is becoming very expensive it begs the question: Will student loans become a necessity in the future?
@@ -19,18 +19,22 @@ College students
 - R: I will show a bunch of statistics on college tuitions from 20 years ago and compare it in the present day.
 
 ## Dataset & Provenence
+### Source Links
 - https://www.britannica.com/procon/student-loan-debt-debate
 - https://www.elfi.com/the-pros-and-cons-of-student-loans/
 - https://www.bestcolleges.com/research/average-student-loan-debt/
+### Retrieval Date - February 15, 2026
+### License/Usage - Google.com
+
 
 ## Data Dictionary
-- Years
+### Years
 2021               
 2022               
 2023               
 2024               
 2025
-- Average Student Loan Debt
+### Average Student Loan Debt
 $37,113
 $37,575
 $37,088
