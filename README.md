@@ -1,22 +1,26 @@
 # student-reality-lab-Banka
 
 ## Title
-Student loan crisis
+The Reality of Paying Off a Student Loan
 
 ## Question
-As college tuition is becoming very expensive it begs the question: Will student loans become a necessity in the future?
+How long does it take an average college student to pay off their student loans?
 
 ## Claim
-If college tuition increases, then more students are more likely to take student loans.
+College graduates with low income are more likely to extend their payment for their student loans exceeding the normal 10-year repayment plan. 
 
 ## Audience
-College students 
+- College students
+- College graduates
+- College dropouts
+- High school students
+- High school graduates
 
 ## STAR Draft
-- S: College students should be aware about the rate of tuition. The more tuition increases the more likely they will take students loans, which can ruin their finacial stability.
-- T: Prices of tuition will go up in the future and student loans will be a common use of payment for tuition.
-- A: I will build a website that spreads awareness about rising tuition rates.
-- R: I will show a bunch of statistics on college tuitions from 20 years ago and compare it in the present day.
+- S: This matters since students are taking on student loans which can impact them finacially and emotionally. 
+- T: The viewer should conclude that the duration of paying off student loans will get longer in the future. 
+- A: I will build an interactive website that goes over the problems that students face when paying off student loans.
+- R: I will show a statistic on the average amount of time it took to pay off a student loan 50 years ago and compare it in the present.
 
 ## Dataset & Provenence
 ### Source Links
