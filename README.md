@@ -24,10 +24,12 @@ College graduates with low income are more likely to extend their payment for th
 
 ## Dataset & Provenence
 ### Source Links
-- https://www.britannica.com/procon/student-loan-debt-debate
-- https://www.elfi.com/the-pros-and-cons-of-student-loans/
-- https://www.bestcolleges.com/research/average-student-loan-debt/
-### Retrieval Date - February 15, 2026
+- https://educationdata.org/average-time-to-repay-student-loans
+- https://www.bestcolleges.com/research/how-long-to-pay-off-student-loans/
+- https://www.savingforcollege.com/article/how-long-does-it-take-to-repay-a-student-loan
+
+### Retrieval Date - MArch 1, 2026
+
 ### License/Usage - Google.com
 
 
