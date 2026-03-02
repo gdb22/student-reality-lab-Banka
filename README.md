@@ -28,20 +28,26 @@ College graduates are more likely to extend their payment for their student loan
 - https://www.bestcolleges.com/research/how-long-to-pay-off-student-loans/
 - https://www.savingforcollege.com/article/how-long-does-it-take-to-repay-a-student-loan
 
-### Retrieval Date - MArch 1, 2026
+### Retrieval Date - March 1, 2026
 
 ### License/Usage - Public domain
 
 
 ## Data Dictionary
-| Degree Level       | Student Loan Payoff Time (Men) | Student Loan Payoff Time (Women) |
-|-------------------|-------------------------------|---------------------------------|
-| Master's Degree    | 7 years, 9 months             | 12 years, 5 months              |
-| Doctoral Degree    | 10 years, 5 months            | 12 years, 11 months             |
-| Professional Degree| Impossible                     | Impossible                      |
+
+### Direct Consolidation Loan Repayment Periods by Total Debt
+| Total Student Loan Debt | Repayment Period |
+|------------------------|-----------------|
+| Less than $7,500       | 10 years        |
+| $7,500 - $9,999        | 12 years        |
+| $10,000 - $19,000      | 15 years        |
+| $20,000 - $39,999      | 20 years        |
+| $40,000 - $59,999      | 25 years        |
+| Over $60,000           | 30 years        |
 
 ## Data Viability Audit
-The dataset cannot provide information about college students demographics such as age and ethnicity.
+- Missing - Name, age and career choice.
+- The dataset cannot provide information on the persons' economic status nor their race. 
 
 ## Draft Chart Screenshot
 ![image alt](https://github.com/gdb22/student-reality-lab-Banka/blob/main/Draft%20Chart%20-%20Guna%20Banka.png?raw=true)
