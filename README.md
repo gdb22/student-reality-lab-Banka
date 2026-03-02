@@ -7,7 +7,7 @@ The Reality of Paying Off a Student Loan
 How long does it take an average college student to pay off their student loans?
 
 ## Claim
-College graduates with low income are more likely to extend their payment for their student loans exceeding the normal 10-year repayment plan. 
+College graduates are more likely to extend their payment for their student loans exceeding the normal 10-year repayment plan. 
 
 ## Audience
 - College students
