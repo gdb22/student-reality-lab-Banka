@@ -40,14 +40,14 @@ College graduates are more likely to extend their payment for their student loan
 |------------------------|-----------------|
 | Less than $7,500       | 10 years        |
 | $7,500 - $9,999        | 12 years        |
-| $10,000 - $19,000      | 15 years        |
+| $10,000 - $19,999      | 15 years        |
 | $20,000 - $39,999      | 20 years        |
 | $40,000 - $59,999      | 25 years        |
 | Over $60,000           | 30 years        |
 
 ## Data Viability Audit
-- Missing - Name, age and career choice.
-- The dataset cannot provide information on the persons' economic status nor their race. 
+- Missing the percentage of people who have a specific amount of student loan debt.
+- The dataset cannot provide information on the persons' economic status.
 
 ## Draft Chart Screenshot
 ![image alt](https://github.com/gdb22/student-reality-lab-Banka/blob/main/Draft%20Chart%20-%20Guna%20Banka.png?raw=true)
