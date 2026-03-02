@@ -17,10 +17,10 @@ College graduates with low income are more likely to extend their payment for th
 - High school graduates
 
 ## STAR Draft
-- S: This matters since students are taking on student loans which can impact them finacially and emotionally. 
-- T: The viewer should conclude that the duration of paying off student loans will get longer in the future. 
-- A: I will build an interactive website that goes over the problems that students face when paying off student loans.
-- R: I will show a statistic on the average amount of time it took to pay off a student loan 50 years ago and compare it in the present.
+- S: This matters since students are taking on student loans which can impact them finacially and emotionally. The amount of U.S. student debt exceeds over 1.7 trillion dollars.
+- T: The viewer should conclude that the duration of paying off student loans will get longer in the future. They should also understand that student loans put finacial strain on college students.
+- A: I will build an interactive website that goes over the problems that students face when paying off student loans. Charts will be provided which can be interacted to help the viewer understand the material in an engaging way. It would also be great to provide videos explaining the concepts in further detail for visual learners.
+- R: I will show a statistic on the average amount of time it took to pay off a student loan 50 years ago and compare it in the present. I will also show the debt to income ratio and see how it changed throughout the time.
 
 ## Dataset & Provenence
 ### Source Links
@@ -30,22 +30,14 @@ College graduates with low income are more likely to extend their payment for th
 
 ### Retrieval Date - MArch 1, 2026
 
-### License/Usage - Google.com
+### License/Usage - Public domain
 
 
 ## Data Dictionary
-### Years
-2021               
-2022               
-2023               
-2024               
-2025
-### Average Student Loan Debt
-$37,113
-$37,575
-$37,088
-$38,375
-$39,375
+| Column 1 | Column 2 | Column 3 |
+|----------|----------|----------|
+| Row 1, C1 | Row 1, C2 | Row 1, C3 |
+| Row 2, C1 | Row 2, C2 | Row 2, C3 |
 
 ## Data Viability Audit
 The dataset cannot provide information about college students demographics such as age and ethnicity.
