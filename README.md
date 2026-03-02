@@ -34,10 +34,11 @@ College graduates with low income are more likely to extend their payment for th
 
 
 ## Data Dictionary
-| Column 1 | Column 2 | Column 3 |
-|----------|----------|----------|
-| Row 1, C1 | Row 1, C2 | Row 1, C3 |
-| Row 2, C1 | Row 2, C2 | Row 2, C3 |
+| Degree Level       | Student Loan Payoff Time (Men) | Student Loan Payoff Time (Women) |
+|-------------------|-------------------------------|---------------------------------|
+| Master's Degree    | 7 years, 9 months             | 12 years, 5 months              |
+| Doctoral Degree    | 10 years, 5 months            | 12 years, 11 months             |
+| Professional Degree| Impossible                     | Impossible                      |
 
 ## Data Viability Audit
 The dataset cannot provide information about college students demographics such as age and ethnicity.
