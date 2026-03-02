@@ -27,6 +27,7 @@ College graduates are more likely to extend their payment for their student loan
 - https://educationdata.org/average-time-to-repay-student-loans
 - https://www.bestcolleges.com/research/how-long-to-pay-off-student-loans/
 - https://www.savingforcollege.com/article/how-long-does-it-take-to-repay-a-student-loan
+- https://educationdata.org/average-student-loan-debt-by-year
 
 ### Retrieval Date - March 1, 2026
 
