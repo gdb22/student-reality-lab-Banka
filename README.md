@@ -57,3 +57,6 @@ College graduates are more likely to extend their payment for their student loan
 
 ## Deployment Link
 https://gdb22.github.io/student-reality-lab-Banka/
+
+## Interaction Design
+The chart can be interacted to see how much student loan balances have increased from the past 18 years. Every year it is a gradual increase of hundreds of thousands of dollars. There have been some drops, but the chart doesn't show major declines. During this time student loan balances have increased around $18,000. This chart helps people understand why student loans take a longer time to pay off since the amount of loan balance increases a bit by every year.
