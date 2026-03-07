@@ -1,0 +1,13 @@
+# Node
+node_modules/
+
+# Build
+student-reality-lab-folder/dist/
+
+# macOS
+.DS_Store
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
