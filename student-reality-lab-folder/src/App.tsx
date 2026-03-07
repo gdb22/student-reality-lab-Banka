@@ -41,6 +41,7 @@ function App() {
           understand the potential consequences of taking student loans.
         </p>
       </section>
+
     </main>
   )
 }
