@@ -1,5 +1,6 @@
 import './App.css'
 import DebtOverTimeChart from './components/DebtOverTime'
+import RepaymentPeriodChart from './components/RepaymentPeriod'
 
 function App() {
   return (
@@ -20,6 +21,13 @@ function App() {
       </section>
 
       <DebtOverTimeChart />
+
+      <section className="interaction">
+        <h3>Interaction</h3>
+        <p>Hover over the line to see debt size and repayment time.</p>
+      </section>
+
+      <RepaymentPeriodChart />
 
       <section className="story">
         <h3>Story</h3>

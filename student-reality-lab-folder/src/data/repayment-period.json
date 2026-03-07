@@ -1,0 +1,14 @@
+[
+  { "total_debt": 0, "repayment_years": 10 },
+  { "total_debt": 7500, "repayment_years": 10 },
+  { "total_debt": 7500, "repayment_years": 12 },
+  { "total_debt": 9999, "repayment_years": 12 },
+  { "total_debt": 10000, "repayment_years": 15 },
+  { "total_debt": 19999, "repayment_years": 15 },
+  { "total_debt": 20000, "repayment_years": 20 },
+  { "total_debt": 39999, "repayment_years": 20 },
+  { "total_debt": 40000, "repayment_years": 25 },
+  { "total_debt": 59999, "repayment_years": 25 },
+  { "total_debt": 60000, "repayment_years": 30 },
+  { "total_debt": 120000, "repayment_years": 30 }
+]
