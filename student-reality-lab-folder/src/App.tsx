@@ -32,7 +32,7 @@ function App() {
       <section className="story">
         <h3>Story</h3>
         <p>
-          The first line chart shows a steady increase in average student loan balance 
+          The first line chart shows a steady increase in average student loan balance
           over the past twenty years. Although there were some fluctuations
           throughout the years there is a consistent increase. With this
           substantial increase, it raises a question whether student loans will
@@ -41,12 +41,14 @@ function App() {
           affordable education. In the last twenty years student loans have
           risen $18,000. Imagine the increase in the next twenty years. This
           shows why this can be a potential problem in the future. It is very
-          important that the rate of student loans stabilize in the long term. Otherwise,
-          it can negatively impact future students. The financial strain current college 
-          students face can already be difficult to manage. Both of these charts help 
-          spread awareness about the student loan crisis and how it affects many college 
-          students. Being educated on this topic can help future students better
-          understand the potential consequences of taking student loans.
+          important that the rate of student loans stabilize in the long term.
+          Otherwise, it can negatively impact future students. The second chart shows the amount of 
+          repayment time it takes to pay off the loans. Depeneding on how much a student owes there 
+          is a high chance that they are exceeding ths standard 10 year repayment plan, which isn't good. 
+          The financial strain current college students face can already be difficult to manage. 
+          Both of these charts help spread awareness about the student loan crisis and how 
+          it affects many collegestudents. Being educated on this topic can help future 
+          students better understand the potential consequences of taking student loans.
         </p>
       </section>
 
