@@ -22,6 +22,9 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
+      - name: Setup Pages
+        uses: actions/configure-pages@v4
+
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
@@ -36,6 +39,11 @@ jobs:
       - name: Build
         working-directory: student-reality-lab-folder
         run: npm run build
+
+      - name: Verify build output
+        run: |
+          ls -la student-reality-lab-folder/dist
+          test -f student-reality-lab-folder/dist/index.html
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
