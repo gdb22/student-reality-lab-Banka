@@ -60,3 +60,14 @@ https://gdb22.github.io/student-reality-lab-Banka/
 
 ## Interaction Design
 The fitst chart can be interacted to see how much student loan balances have increased from the past 18 years. Every year it is a gradual increase of hundreds or thousands of dollars. There have been some drops, but the chart doesn't show major declines. During this time student loan balances have increased around $18,000. The second chart shows the amount of time it takes to repay off those student loans depending on the amount the student owes. These charts help people understand why student loans take a longer time to pay off since the amount of loan balance increases a bit by every year and the repayment periods are getting longer depending on loan amount.
+
+## Limits & What I’d Do Next
+Limits
+- The charts show national level of student loans and repayment times, rather than state.
+- The charts don't tell us what the college students finacial income is like.
+-  The charts don't tell us what the college students age and gender.
+
+What to do next
+- Focus on state-level student loans
+- Focus on the college students finacial situation
+- Focus on the demographics of the college student
