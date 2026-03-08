@@ -1,5 +1,5 @@
 [
-  { "total_debt": 0, "repayment_years": 10 },
+  { "total_debt": 0, "repayment_years": 0 },
   { "total_debt": 7500, "repayment_years": 10 },
   { "total_debt": 7500, "repayment_years": 12 },
   { "total_debt": 9999, "repayment_years": 12 },
