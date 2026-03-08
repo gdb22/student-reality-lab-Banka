@@ -51,7 +51,7 @@ College graduates are more likely to extend their payment for their student loan
 - The dataset cannot provide information on the persons' economic status.
 
 ## Draft Chart Screenshot
-![image alt](https://github.com/gdb22/student-reality-lab-Banka/blob/main/Datachart%20-%20Guna%20Banka.png?raw=true)
+![image alt](https://github.com/gdb22/student-reality-lab-Banka/blob/main/Datachart%20(Revised)%20-%20Guna%20Banka.png?raw=true)
 - The chart shows that the average time it takes in years to pay off a student loan depending on the loan amount.
 - This chart can helps us understand why it takes students a long time to pay off their student loans.
 
