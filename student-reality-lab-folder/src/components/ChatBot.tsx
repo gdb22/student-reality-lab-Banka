@@ -1,4 +1,5 @@
 import { useRef, useState } from 'react'
+import { getChatReply } from '../api/chat'
 
 type Message = {
   id: string
@@ -41,29 +42,18 @@ export default function ChatBot() {
     setIsLoading(true)
 
     try {
-      const response = await fetch('/api/chat', {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify({
-          message: userMessage.content,
-          conversationHistory: messages,
-        }),
-      })
-
-      if (!response.ok) {
-        throw new Error(
-          `API error: ${response.status} ${response.statusText}`,
-        )
-      }
-
-      const data = await response.json()
+      const reply = await getChatReply(
+        userMessage.content,
+        messages.map((msg) => ({
+          role: msg.role,
+          content: msg.content,
+        })),
+      )
 
       const assistantMessage: Message = {
         id: (Date.now() + 1).toString(),
         role: 'assistant',
-        content: data.reply,
+        content: reply,
         timestamp: new Date(),
       }
 

@@ -127,54 +127,50 @@ async function callGemini(messages: ChatMessage[]): Promise<string> {
   return parts.map((part) => part.text ?? "").join("\n").trim();
 }
 
+export async function getChatReply(
+  message: string,
+  conversationHistory: ChatMessage[] = []
+): Promise<string> {
+  if (!message || typeof message !== "string") {
+    throw new Error("Invalid message format");
+  }
+
+  const provider = resolveProvider();
+
+  if (!provider) {
+    throw new Error(
+      "No AI provider configured. Set VITE_OPENAI_API_KEY or VITE_GEMINI_API_KEY."
+    );
+  }
+
+  const messages = conversationHistory
+    .filter(
+      (msg) =>
+        (msg.role === "user" || msg.role === "assistant") &&
+        typeof msg.content === "string" &&
+        msg.content.trim().length > 0
+    )
+    .map((msg) => ({
+      role: msg.role,
+      content: msg.content,
+    }));
+
+  messages.push({
+    role: "user",
+    content: message,
+  });
+
+  return provider === "openai"
+    ? await callOpenAI(messages)
+    : await callGemini(messages);
+}
+
 export async function POST(request: Request) {
   try {
     const { message, conversationHistory = [] } =
       (await request.json()) as ChatRequestBody;
 
-    if (!message || typeof message !== "string") {
-      return new Response(
-        JSON.stringify({ error: "Invalid message format" }),
-        { status: 400 }
-      );
-    }
-
-    const provider = resolveProvider();
-
-    if (!provider) {
-      return new Response(
-        JSON.stringify({
-          error: "No AI provider configured",
-          details:
-            "Set OPENAI_API_KEY or GEMINI_API_KEY. Optionally set AI_PROVIDER=openai|gemini.",
-        }),
-        { status: 500 }
-      );
-    }
-
-    // Format and validate conversation history
-    const messages = conversationHistory
-      .filter(
-        (msg) =>
-          (msg.role === "user" || msg.role === "assistant") &&
-          typeof msg.content === "string" &&
-          msg.content.trim().length > 0
-      )
-      .map((msg) => ({
-        role: msg.role,
-        content: msg.content,
-      }));
-
-    // Add the new user message
-    messages.push({
-      role: "user",
-      content: message,
-    });
-
-    const reply =
-      provider === "openai"
-        ? await callOpenAI(messages)
-        : await callGemini(messages);
+    const reply = await getChatReply(message, conversationHistory);
 
     return new Response(JSON.stringify({ reply }), {
       status: 200,
