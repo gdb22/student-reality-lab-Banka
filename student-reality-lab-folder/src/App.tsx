@@ -1,5 +1,6 @@
 import './App.css'
 import LoanRepaymentEstimator from './components/LoanRepaymentEstimator'
+import ChatBot from './components/ChatBot'
 
 function App() {
   return (
@@ -15,6 +16,8 @@ function App() {
       </header>
 
       <LoanRepaymentEstimator />
+
+      <ChatBot />
 
       <section className="story-card">
         <h2>Why this matters</h2>

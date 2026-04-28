@@ -87,10 +87,7 @@ export default function LoanRepaymentEstimator() {
 
   const latestAverageDebt = debtData.at(-1)?.average_balance ?? 39550
   const earliestAverageDebt = debtData[0]?.average_balance ?? 18230
-  const maxSliderAmount = Math.max(
-    latestAverageDebt,
-    ...repaymentData.map((entry) => entry.total_debt),
-  )
+  const maxSliderAmount = 500000
 
   const [loanAmount, setLoanAmount] = useState(latestAverageDebt)
 
@@ -104,7 +101,7 @@ export default function LoanRepaymentEstimator() {
 
   const handleAmountChange = (rawValue: string) => {
     const numericValue = Number(rawValue.replace(/[^\d.]/g, ''))
-    setLoanAmount(clampAmount(numericValue, 250000))
+    setLoanAmount(clampAmount(numericValue, 500000))
   }
 
   return (
